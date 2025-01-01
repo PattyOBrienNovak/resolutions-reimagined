@@ -20,8 +20,8 @@ serve(async (req) => {
       throw new Error('OpenAI API key not found in environment variables');
     }
 
-    const { goal } = await req.json();
-    console.log('Processing goal:', goal);
+    const { goal, stepCount = 5 } = await req.json();
+    console.log('Processing goal:', goal, 'with step count:', stepCount);
 
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
@@ -34,7 +34,7 @@ serve(async (req) => {
         messages: [
           {
             role: 'system',
-            content: 'You are a helpful assistant that breaks down goals into actionable steps. Generate exactly 5 specific, actionable steps. Format your response as a numbered list with each step on a new line, like this:\n1. First step\n2. Second step\n3. Third step\n4. Fourth step\n5. Fifth step'
+            content: `You are a helpful assistant that breaks down goals into actionable steps. Generate exactly ${stepCount} specific, actionable steps. Format your response as a numbered list with each step on a new line, like this:\n1. First step\n2. Second step\n... and so on until step ${stepCount}`
           },
           {
             role: 'user',

@@ -9,12 +9,12 @@ export default function Index() {
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
 
-  const generateSteps = async (goal: string) => {
+  const generateSteps = async (goal: string, stepCount: number) => {
     setIsLoading(true);
     try {
-      console.log('Sending goal to edge function:', goal);
+      console.log('Sending goal to edge function:', goal, 'with step count:', stepCount);
       const { data, error } = await supabase.functions.invoke("generate-steps", {
-        body: { goal },
+        body: { goal, stepCount },
       });
 
       console.log('Edge function response:', data);
@@ -67,7 +67,7 @@ export default function Index() {
         
         <ActionSteps 
           steps={steps} 
-          onRegenerate={() => generateSteps(steps.length ? "Same goal, but different steps" : "")}
+          onRegenerate={() => generateSteps(steps.length ? "Same goal, but different steps" : "", steps.length || 5)}
           isLoading={isLoading}
         />
       </div>
