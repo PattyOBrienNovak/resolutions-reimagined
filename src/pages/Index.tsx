@@ -12,15 +12,17 @@ export default function Index() {
   const generateSteps = async (goal: string) => {
     setIsLoading(true);
     try {
-      const { data: { origin } } = await supabase.functions.invoke("generate-steps", {
+      const { data, error } = await supabase.functions.invoke("generate-steps", {
         body: { goal },
       });
 
-      if (!origin?.choices?.[0]?.message?.content) {
-        throw new Error("Invalid response format from OpenAI");
+      if (error) throw error;
+
+      if (!data?.origin?.choices?.[0]?.message?.content) {
+        throw new Error("Invalid response format from AI");
       }
 
-      const content = origin.choices[0].message.content;
+      const content = data.origin.choices[0].message.content;
       const parsedSteps = content
         .split(/\d+\./)
         .filter(Boolean)
