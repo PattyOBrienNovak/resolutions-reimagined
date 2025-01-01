@@ -14,14 +14,14 @@ serve(async (req) => {
 
   try {
     const openAIApiKey = Deno.env.get('OPENAI_API_KEY');
-    console.log('Checking OpenAI API key:', openAIApiKey ? 'Key exists' : 'Key is missing');
+    console.log('API Key status:', openAIApiKey ? 'Present' : 'Missing');
     
     if (!openAIApiKey) {
       throw new Error('OpenAI API key not found in environment variables');
     }
 
     const { goal } = await req.json();
-    console.log('Received goal:', goal);
+    console.log('Processing goal:', goal);
 
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
@@ -46,13 +46,13 @@ serve(async (req) => {
     });
 
     if (!response.ok) {
-      const errorData = await response.text();
-      console.error('OpenAI API error response:', errorData);
+      const errorText = await response.text();
+      console.error('OpenAI API error:', errorText);
       throw new Error(`OpenAI API error: ${response.status} ${response.statusText}`);
     }
 
     const data = await response.json();
-    console.log('OpenAI response:', JSON.stringify(data, null, 2));
+    console.log('OpenAI response received:', JSON.stringify(data, null, 2));
 
     return new Response(
       JSON.stringify({ origin: data }),
