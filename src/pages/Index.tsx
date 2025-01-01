@@ -39,6 +39,13 @@ export default function Index() {
 
       console.log('Parsed steps:', parsedSteps);
       setSteps(parsedSteps);
+      
+      // Show success message in lime green
+      toast({
+        title: "Steps Generated!",
+        description: "Your action plan is ready.",
+        className: "bg-[#ecfccb] border-[#84cc16] text-[#365314]",
+      });
     } catch (error) {
       console.error("Error:", error);
       toast({
@@ -55,11 +62,13 @@ export default function Index() {
     <main className="min-h-screen gradient-bg">
       <div className="container py-12 px-4 flex flex-col items-center gap-12">
         <div className="text-center space-y-4 max-w-2xl">
-          <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
+          <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#D946EF]">
             Resolutions Reimagined
           </h1>
           <p className="text-lg text-muted-foreground">
-            Enter your New Year's resolution or any goal.<br />
+            Enter your New Year's resolution or any goal.
+          </p>
+          <p className="text-lg text-muted-foreground">
             Get personalized, actionable steps to achieve it.
           </p>
         </div>

@@ -21,9 +21,9 @@ export function ActionSteps({ steps, onRegenerate, isLoading }: ActionStepsProps
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: index * 0.1 }}
           >
-            <Card className="p-4 hover:shadow-lg transition-shadow">
+            <Card className="p-4 hover:shadow-lg transition-shadow border-l-4 border-l-[#84cc16]">
               <div className="flex gap-4">
-                <span className="text-primary font-bold">{index + 1}.</span>
+                <span className="text-[#84cc16] font-bold">{index + 1}.</span>
                 <p className="text-foreground">{step}</p>
               </div>
             </Card>
@@ -34,7 +34,7 @@ export function ActionSteps({ steps, onRegenerate, isLoading }: ActionStepsProps
         onClick={onRegenerate} 
         variant="outline" 
         disabled={isLoading}
-        className="w-full"
+        className="w-full hover:border-[#D946EF] hover:text-[#D946EF] transition-colors"
       >
         Generate New Steps
       </Button>

@@ -30,20 +30,20 @@ export function GoalInput({ onSubmit, isLoading }: GoalInputProps) {
         placeholder="Enter your goal here... (e.g., 'I want to learn to play the guitar')"
         value={goal}
         onChange={(e) => setGoal(e.target.value)}
-        className="min-h-[100px] text-lg"
+        className="min-h-[100px] text-lg focus-within:border-[#D946EF] transition-colors"
       />
       <div className="flex gap-4">
         <Button 
           onClick={() => handleSubmit(5)} 
           disabled={isLoading} 
-          className="flex-1"
+          className="flex-1 hover:bg-[#D946EF] transition-colors"
         >
           {isLoading ? "Generating steps..." : "Get 5 Action Steps"}
         </Button>
         <Button 
           onClick={() => handleSubmit(10)} 
           disabled={isLoading} 
-          className="flex-1"
+          className="flex-1 hover:bg-[#D946EF] transition-colors"
         >
           {isLoading ? "Generating steps..." : "Get 10 Action Steps"}
         </Button>
