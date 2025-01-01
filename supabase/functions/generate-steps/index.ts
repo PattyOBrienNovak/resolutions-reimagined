@@ -1,64 +1,68 @@
-import { serve } from "https://deno.land/std@0.168.0/http/server.ts"
-import { corsHeaders } from "../_shared/cors.ts"
+import "https://deno.land/x/xhr@0.1.0/mod.ts";
+import { serve } from "https://deno.land/std@0.168.0/http/server.ts";
 
-const OPENAI_API_KEY = Deno.env.get('OPENAI_API_KEY')
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+};
 
 serve(async (req) => {
+  // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
-    return new Response('ok', { headers: corsHeaders })
+    return new Response(null, { headers: corsHeaders });
   }
 
   try {
-    const { goal } = await req.json()
+    const { goal } = await req.json();
+    console.log('Received goal:', goal);
 
-    if (!goal) {
-      return new Response(
-        JSON.stringify({ error: 'Goal is required' }),
-        { status: 400, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-      )
+    const openAIApiKey = Deno.env.get('OPENAI_API_KEY');
+    if (!openAIApiKey) {
+      throw new Error('OpenAI API key not found');
     }
 
-    console.log('Sending request to OpenAI with goal:', goal)
-
+    console.log('Making request to OpenAI...');
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${OPENAI_API_KEY}`,
+        'Authorization': `Bearer ${openAIApiKey}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: "gpt-4o-mini",
+        model: 'gpt-4o-mini',
         messages: [
           {
-            role: "system",
-            content: "You are a helpful goal achievement assistant. Generate a numbered list of 5-7 specific, actionable steps for achieving the user's goal. Format each step as a number followed by a period and then the step description, like this:\n1. First step\n2. Second step\netc.",
+            role: 'system',
+            content: 'You are a helpful assistant that breaks down goals into actionable steps. Generate exactly 5 specific, actionable steps. Format your response as a numbered list with each step on a new line, like this:\n1. First step\n2. Second step\n3. Third step\n4. Fourth step\n5. Fifth step'
           },
           {
-            role: "user",
-            content: `My goal is: ${goal}`,
-          },
+            role: 'user',
+            content: `Help me achieve this goal: ${goal}`
+          }
         ],
         temperature: 0.7,
       }),
-    })
+    });
 
-    const data = await response.json()
-    console.log('OpenAI response:', JSON.stringify(data, null, 2))
+    const openAIResponse = await response.json();
+    console.log('OpenAI response:', JSON.stringify(openAIResponse, null, 2));
 
-    if (!data.choices?.[0]?.message?.content) {
-      console.error('Invalid OpenAI response format:', data)
-      throw new Error('Invalid response format from OpenAI')
+    if (!response.ok) {
+      throw new Error(`OpenAI API error: ${openAIResponse.error?.message || 'Unknown error'}`);
     }
 
     return new Response(
-      JSON.stringify({ origin: data }),
+      JSON.stringify({ origin: openAIResponse }),
       { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-    )
+    );
   } catch (error) {
-    console.error('Error in generate-steps function:', error)
+    console.error('Error in generate-steps function:', error);
     return new Response(
       JSON.stringify({ error: error.message }),
-      { status: 500, headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
-    )
+      { 
+        status: 500,
+        headers: { ...corsHeaders, 'Content-Type': 'application/json' }
+      }
+    );
   }
-})
+});

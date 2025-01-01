@@ -12,22 +12,32 @@ export default function Index() {
   const generateSteps = async (goal: string) => {
     setIsLoading(true);
     try {
+      console.log('Sending goal to edge function:', goal);
       const { data, error } = await supabase.functions.invoke("generate-steps", {
         body: { goal },
       });
 
-      if (error) throw error;
+      console.log('Edge function response:', data);
+
+      if (error) {
+        console.error('Supabase function error:', error);
+        throw error;
+      }
 
       if (!data?.origin?.choices?.[0]?.message?.content) {
+        console.error('Invalid response format:', data);
         throw new Error("Invalid response format from AI");
       }
 
       const content = data.origin.choices[0].message.content;
+      console.log('Parsed content:', content);
+      
       const parsedSteps = content
         .split(/\d+\./)
         .filter(Boolean)
         .map((step: string) => step.trim());
 
+      console.log('Parsed steps:', parsedSteps);
       setSteps(parsedSteps);
     } catch (error) {
       console.error("Error:", error);
