@@ -2,6 +2,7 @@ import { useState } from "react";
 import { GoalInput } from "@/components/GoalInput";
 import { ActionSteps } from "@/components/ActionSteps";
 import { useToast } from "@/components/ui/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 export default function Index() {
   const [steps, setSteps] = useState<string[]>([]);
@@ -11,40 +12,15 @@ export default function Index() {
   const generateSteps = async (goal: string) => {
     setIsLoading(true);
     try {
-      const response = await fetch("https://api.openai.com/v1/chat/completions", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${import.meta.env.VITE_OPENAI_API_KEY}`,
-        },
-        body: JSON.stringify({
-          model: "gpt-4",
-          messages: [
-            {
-              role: "system",
-              content: "You are a helpful goal achievement assistant. Provide 5-7 specific, actionable steps for achieving the user's goal. Each step should be unique and practical.",
-            },
-            {
-              role: "user",
-              content: `My goal is: ${goal}`,
-            },
-          ],
-          temperature: 0.7,
-        }),
+      const { data: { origin } } = await supabase.functions.invoke("generate-steps", {
+        body: { goal },
       });
 
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        console.error("OpenAI API Error:", errorData);
-        throw new Error(errorData.error?.message || "Failed to generate steps");
-      }
-
-      const data = await response.json();
-      if (!data.choices?.[0]?.message?.content) {
+      if (!origin?.choices?.[0]?.message?.content) {
         throw new Error("Invalid response format from OpenAI");
       }
 
-      const content = data.choices[0].message.content;
+      const content = origin.choices[0].message.content;
       const parsedSteps = content
         .split(/\d+\./)
         .filter(Boolean)
