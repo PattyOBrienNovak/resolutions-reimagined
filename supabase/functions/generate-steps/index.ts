@@ -13,15 +13,16 @@ serve(async (req) => {
   }
 
   try {
+    const openAIApiKey = Deno.env.get('OPENAI_API_KEY');
+    console.log('Checking OpenAI API key:', openAIApiKey ? 'Key exists' : 'Key is missing');
+    
+    if (!openAIApiKey) {
+      throw new Error('OpenAI API key not found in environment variables');
+    }
+
     const { goal } = await req.json();
     console.log('Received goal:', goal);
 
-    const openAIApiKey = Deno.env.get('OPENAI_API_KEY');
-    if (!openAIApiKey) {
-      throw new Error('OpenAI API key not found');
-    }
-
-    console.log('Making request to OpenAI...');
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
       method: 'POST',
       headers: {
@@ -44,15 +45,17 @@ serve(async (req) => {
       }),
     });
 
-    const openAIResponse = await response.json();
-    console.log('OpenAI response:', JSON.stringify(openAIResponse, null, 2));
-
     if (!response.ok) {
-      throw new Error(`OpenAI API error: ${openAIResponse.error?.message || 'Unknown error'}`);
+      const errorData = await response.text();
+      console.error('OpenAI API error response:', errorData);
+      throw new Error(`OpenAI API error: ${response.status} ${response.statusText}`);
     }
 
+    const data = await response.json();
+    console.log('OpenAI response:', JSON.stringify(data, null, 2));
+
     return new Response(
-      JSON.stringify({ origin: openAIResponse }),
+      JSON.stringify({ origin: data }),
       { headers: { ...corsHeaders, 'Content-Type': 'application/json' } }
     );
   } catch (error) {
