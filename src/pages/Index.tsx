@@ -34,10 +34,16 @@ export default function Index() {
       });
 
       if (!response.ok) {
-        throw new Error("Failed to generate steps");
+        const errorData = await response.json().catch(() => ({}));
+        console.error("OpenAI API Error:", errorData);
+        throw new Error(errorData.error?.message || "Failed to generate steps");
       }
 
       const data = await response.json();
+      if (!data.choices?.[0]?.message?.content) {
+        throw new Error("Invalid response format from OpenAI");
+      }
+
       const content = data.choices[0].message.content;
       const parsedSteps = content
         .split(/\d+\./)
@@ -46,12 +52,12 @@ export default function Index() {
 
       setSteps(parsedSteps);
     } catch (error) {
+      console.error("Error:", error);
       toast({
         title: "Error",
-        description: "Failed to generate steps. Please try again.",
+        description: error instanceof Error ? error.message : "Failed to generate steps. Please try again.",
         variant: "destructive",
       });
-      console.error("Error:", error);
     } finally {
       setIsLoading(false);
     }
