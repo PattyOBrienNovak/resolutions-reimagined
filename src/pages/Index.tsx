@@ -56,7 +56,7 @@ export default function Index() {
       <div className="container py-12 px-4 flex flex-col items-center gap-12">
         <div className="text-center space-y-4 max-w-2xl">
           <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-            Transform Your Goals Into Action
+            Resolutions Reimagined
           </h1>
           <p className="text-lg text-muted-foreground">
             Enter your New Year's resolution or any goal, and get personalized, actionable steps to achieve it.
