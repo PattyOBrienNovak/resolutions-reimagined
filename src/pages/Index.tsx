@@ -59,7 +59,8 @@ export default function Index() {
             Resolutions Reimagined
           </h1>
           <p className="text-lg text-muted-foreground">
-            Enter your New Year's resolution or any goal, and get personalized, actionable steps to achieve it.
+            Enter your New Year's resolution or any goal,<br />
+            and get personalized, actionable steps to achieve it.
           </p>
         </div>
 
