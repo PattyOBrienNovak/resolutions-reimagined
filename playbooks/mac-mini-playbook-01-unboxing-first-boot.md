@@ -39,10 +39,20 @@
 Open your Mac Mini box. You'll find:
 
 - **Mac Mini** — the small silver square. That's the whole computer.
-- **Power cable** — plugs into the back of the Mac Mini and the wall
+- **Power cord** — Apple includes this. It plugs into the back of the Mac Mini and the wall. No need to buy one separately.
 - **USB-C cable** — for accessories
 
 *What's NOT in the box: monitor, keyboard, mouse. You're providing those.*
+
+---
+
+## ⚠️ Before You Connect Anything: Remove the Port Wrap
+
+Look at the back of your Mac Mini. Apple ships it with a **protective wrap or cover around the ports** — a thin plastic or cardboard sleeve covering the connection area.
+
+**Remove this completely before plugging anything in.**
+
+It's easy to miss and will prevent your cables from seating properly if left on. Take it off now, before you do anything else.
 
 ---
 
