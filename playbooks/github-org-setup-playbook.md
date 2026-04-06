@@ -3,8 +3,23 @@
 
 **Series:** Sage AI Studios — Foundation Playbooks
 **Level:** Beginner-friendly
-**Time:** 10 minutes
 **Prerequisite:** A free GitHub account (github.com)
+
+---
+
+## Before You Begin
+
+**⏱ Time Required: 10 minutes**
+**Interruption Risk: Low — steps are short and saveable**
+
+*This playbook has one job: give your AI business a professional home on GitHub. That's it. You can do this in a single focused coffee break.*
+
+**Not a good time right now?** Bookmark this and come back. Each step is short, but you want to be present for the naming decisions — they shape your business's identity online.
+
+**What to have nearby:**
+- [ ] Your GitHub login (or 2 minutes to create a free account)
+- [ ] Your business name decided
+- [ ] A laptop or desktop browser (easier than mobile for this one)
 
 ---
 
