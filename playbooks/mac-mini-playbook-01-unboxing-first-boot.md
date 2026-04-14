@@ -333,6 +333,8 @@ End-to-end encryption for almost everything in iCloud — even Apple can't acces
 
 > **The tradeoff:** Maximum privacy, but if you lose access to all your trusted devices without a recovery option, your data is gone permanently. Apple cannot help you recover it.
 >
+> **Be honest with yourself here.** Advanced Data Protection is for people who are confident managing their own recovery. If remembering passwords is already a challenge, or if being locked out of your Apple account would be a crisis — **leave it off.** Your data is still well protected by FileVault, two-factor authentication, and iCloud's standard encryption. That's more than enough for most people.
+>
 > **⚠️ Gotcha:** Apple won't let you add a recovery contact from a brand new device for security reasons. A device that just signed in can't immediately change account recovery settings — that's actually smart security.
 > → **Set up your recovery contact from your iPhone instead:** Settings → your name → iCloud → Advanced Data Protection
 > → Or skip for now and come back in a few days when your Mac Mini is a fully trusted device.
