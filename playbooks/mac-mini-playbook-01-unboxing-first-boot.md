@@ -246,6 +246,11 @@ If you click **"Customize Settings"** you'll step through individual options. He
 → *Can be enabled anytime later: System Settings → Privacy & Security → Location Services*
 > **Apple will ask you again:** "Are you sure you don't want to use Location Services?" — Click **"Don't Use."** Stand your ground. 😄
 
+**Time Zone**
+→ The first option "Set time zone automatically using current location" requires Location Services — which you just turned off.
+→ **Uncheck that option** and manually select your time zone from the list instead.
+→ Arrow through when done.
+
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
 
