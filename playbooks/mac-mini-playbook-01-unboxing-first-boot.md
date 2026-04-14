@@ -305,12 +305,16 @@ Fill in your details — but read this first:
 **FileVault Encryption**
 → **Turn this ON.** This encrypts your entire drive, protecting your data if the Mac Mini is ever stolen or accessed without permission. Save the recovery key somewhere safe (password manager or printed and stored securely).
 
-**Apple Intelligence**
-→ Apple's built-in AI — writing tools, mail summaries, enhanced Siri, image generation.
-→ **Turn it off** for your AI powerhouse.
+**Apple Intelligence & Summaries**
+→ Apple's built-in AI — writing tools, mail and notification summaries, enhanced Siri, image generation.
+→ **Click "Set Up Later"** — this is part of setup, not something you need to decide right now.
 
-> You're not an Apple Intelligence user. You're an AI builder. You're building your own email intelligence, your own writing tools, your own agent layer — all more powerful and personalized than anything Apple ships by default. No need to run their AI alongside yours.
-> *Can be enabled anytime: System Settings → Apple Intelligence & Siri*
+> **When you're ready to decide:**
+> - If you plan to build your own AI email intelligence system — you won't need Apple's summaries. Yours will be more powerful and personalized.
+> - If you just want a helpful out-of-the-box experience — Apple Intelligence is worth exploring later.
+>
+> Either way, "Set Up Later" is the right call here. Make this decision when you're settled in, not mid-setup.
+> *Enable anytime: System Settings → Apple Intelligence & Siri*
 
 **Siri**
 → Personal preference. Fine to enable or skip.
