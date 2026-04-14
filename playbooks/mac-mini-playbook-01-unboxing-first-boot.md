@@ -113,11 +113,16 @@ Plug the power cable into the back of the Mac Mini, then into the wall.
 
 ## Step 3: Power On
 
-Press the **power button** — it's on the back of the Mac Mini, bottom-right corner when facing the back.
+The Mac Mini does **not** turn on automatically when you plug it in. You need to press the power button.
 
-You'll hear a chime. Your monitor should show the Apple logo and a progress bar.
+**Power button location:** Back of the Mac Mini, **bottom right corner**.
 
-*If you see nothing on your monitor: check that the monitor is on and set to the correct input (HDMI 1, USB-C, etc.)*
+Press it once. You'll hear a chime and see the Apple logo appear on your monitor within a few seconds.
+
+> **Nothing on your monitor?** Check that:
+> - Your monitor is powered on
+> - The monitor is set to the correct input (HDMI 1, USB-C, etc.)
+> - Your cable is firmly seated in both the Mac Mini and the monitor
 
 ---
 
