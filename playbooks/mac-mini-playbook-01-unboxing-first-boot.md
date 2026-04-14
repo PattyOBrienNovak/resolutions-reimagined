@@ -229,7 +229,7 @@ This is the important one — it connects your Mac Mini to your entire Apple eco
 > Don't have an Apple ID? You can create one here for free. You'll need one to use the App Store and iCloud.
 
 **Terms and Conditions**
-→ Agree. (Yes, everyone agrees.)
+→ Read if you'd like, then agree and arrow through. Yes, everyone agrees.
 
 **Create Your Mac Account**
 
