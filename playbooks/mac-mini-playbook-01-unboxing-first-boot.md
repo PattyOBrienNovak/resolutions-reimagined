@@ -166,9 +166,23 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 **WiFi**
 → Connect to your home or office WiFi. Have your password ready.
 
-**Migration Assistant**
-→ *"Do you want to transfer information from another Mac?"*
-→ **Skip this for now.** Select "Not Now." We're building fresh.
+**Transfer Your Data**
+→ You'll see options to transfer from another Mac, iPhone, or iPad.
+→ **Choose "Don't transfer any information."**
+
+> **"But what if I set up from my iPhone — will it pull over my photos and everything?"**
+> Good question. Here's exactly what transfers from iPhone:
+> - ✅ WiFi passwords (useful, but you have these already)
+> - ✅ Apple ID and account settings
+> - ✅ Safari bookmarks
+> - ❌ Photos — these sync automatically via iCloud
+> - ❌ Apps — iPhone apps don't run on Mac
+> - ❌ Files — these sync via iCloud Drive
+> - ❌ Text messages
+>
+> It's not a mirror of your phone — just settings. And since your Apple ID sign-in (next step) handles the important stuff automatically, there's nothing here worth transferring.
+>
+> **Start fresh. Clean foundations build better systems.**
 
 **Apple ID**
 → Sign in with your Apple ID. This is important — it connects your Mac Mini to your Apple ecosystem (iCloud, App Store, etc.)
