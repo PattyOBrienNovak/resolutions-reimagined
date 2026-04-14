@@ -212,9 +212,21 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 >
 > **Start fresh. Clean foundations build better systems.**
 
-**Apple ID**
-→ Sign in with your Apple ID. This is important — it connects your Mac Mini to your Apple ecosystem (iCloud, App Store, etc.)
-→ If you don't have an Apple ID, create one here.
+**Sign in with Apple ID**
+This is the important one — it connects your Mac Mini to your entire Apple ecosystem.
+
+→ Enter your Apple ID email and password
+→ **Have your iPhone nearby** — a two-factor authentication code will be sent to it
+→ Enter the code when prompted
+
+**What signing in does:**
+- ✅ iCloud Drive syncs automatically
+- ✅ Contacts and Calendar appear
+- ✅ App Store becomes available
+- ✅ Find My Mac activates (locate or remotely wipe if stolen)
+- ✅ iCloud Keychain syncs your saved passwords
+
+> Don't have an Apple ID? You can create one here for free. You'll need one to use the App Store and iCloud.
 
 **Terms and Conditions**
 → Agree. (Yes, everyone agrees.)
