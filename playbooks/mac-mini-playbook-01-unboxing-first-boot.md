@@ -313,6 +313,17 @@ Fill in your details — but read this first:
 > On a personal phone or laptop, sharing analytics is reasonable — it helps Apple improve their products. But on a server running agents, automations, and sensitive email data, less data leaving your machine is better practice.
 > Your AI server shares data on your terms, not by default.
 
+**⚠️ Immediately After Reaching Your Desktop: Turn Off iCloud Photos**
+When you sign in with your Apple ID, iCloud automatically starts syncing your entire photo library to your Mac Mini. On a 256GB AI powerhouse, this can consume your storage fast.
+
+Turn it off immediately:
+1. Apple menu → **System Settings**
+2. Click your **name** at the top
+3. Click **iCloud**
+4. Find **Photos** → turn off **"Sync this Mac"**
+
+Your photos stay safe on your iPhone and in iCloud — just not downloaded to this machine. This is a server, not a photo library.
+
 **FileVault Encryption**
 → **Turn this ON.** This encrypts your entire drive, protecting your data if the Mac Mini is ever stolen or accessed without permission. Save the recovery key somewhere safe (password manager or printed and stored securely).
 
