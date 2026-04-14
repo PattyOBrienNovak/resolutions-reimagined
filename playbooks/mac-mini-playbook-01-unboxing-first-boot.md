@@ -140,8 +140,25 @@ Press it once. You'll hear a chime and see the Apple logo appear on your monitor
 
 macOS will walk you through setup. Here's what to expect and what to choose:
 
+---
+
+> **⚠️ Gotcha #1: VoiceOver may turn on automatically**
+> You may hear a voice start reading the screen aloud. This is **VoiceOver**, Apple's built-in accessibility feature.
+> - It's a lovely feature — and completely optional
+> - To turn it off: press **Command + F5**
+> - To leave it on: just let it keep reading — it won't affect your setup
+> This is Apple's way of making sure everyone can complete setup regardless of ability. Thoughtful design, just unexpected if you're not ready for it.
+
+---
+
+> **⚠️ Gotcha #2: Clicking a language doesn't advance the screen**
+> At the language selection screen, clicking on your language highlights it — but doesn't move you forward. Don't keep clicking thinking something is broken!
+> Look for the **arrow button at the bottom right corner** of the screen. That's what advances you. This applies throughout the setup — when in doubt, look for the arrow or Continue button bottom right.
+
+---
+
 **Language + Region**
-→ Select your language and region. Straightforward.
+→ Click your language to highlight it → click the **arrow at bottom right** to continue. Straightforward once you know where to look.
 
 **Accessibility**
 → Skip for now unless you need specific settings. You can always add these later.
