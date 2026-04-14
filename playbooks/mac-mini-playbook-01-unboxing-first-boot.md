@@ -78,7 +78,7 @@ Plug your monitor cable into the back of the Mac Mini.
 - Got a USB-C/Thunderbolt cable? Use one of the Thunderbolt ports
 
 **2. Keyboard**
-- Wired: plug into any USB-A or USB-C port on the back
+- Wired: plug into the USB-A port closest to the power port — leaves the other two free for future use
 - Wireless: have it nearby, you'll pair it during setup
 
 **3. Mouse or trackpad**
