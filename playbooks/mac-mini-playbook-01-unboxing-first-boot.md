@@ -160,6 +160,14 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 **Language + Region**
 → Click your language to highlight it → click the **arrow at bottom right** to continue. Straightforward once you know where to look.
 
+**Typical Settings for Your Area**
+→ Apple automatically sets your language, region, and timezone based on your location. For most people these are correct — just click the arrow to accept and move on. If anything looks wrong, customize it here before continuing.
+
+**Accessibility**
+→ Options for vision, hearing, and motor accessibility features.
+→ Click **"Not Now"** — you can enable any of these later in System Settings → Accessibility.
+→ *If VoiceOver is still reading your screen aloud and you want it off: press **Command + F5** to toggle it off before clicking through.*
+
 **Accessibility**
 → Skip for now unless you need specific settings. You can always add these later.
 
