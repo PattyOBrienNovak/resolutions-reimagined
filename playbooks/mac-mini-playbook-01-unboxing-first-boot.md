@@ -158,8 +158,14 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 ---
 
 > **"Allow Mac account password to be reset with your Apple ID"**
-> Apple pre-checks this option. **Leave it checked.**
-> This means if you ever forget your Mac login password, your Apple ID becomes your backup key to get back in. For an always-on AI server where being locked out could disrupt everything, having a recovery option is smart — not a security risk. Your Apple ID is already protected by two-factor authentication.
+> Apple pre-checks this option. **Leave it checked** for most situations.
+>
+> **What it does:** If you ever forget your Mac login password, your Apple ID becomes your backup key to get back in. For an always-on AI server where being locked out could disrupt everything, having a recovery option is smart — not a security risk. Your Apple ID is already protected by two-factor authentication.
+>
+> **The one reason to uncheck it:**
+> If you're working in a high-security environment — handling sensitive client data, government contracts, healthcare records, or any situation where your machine must be completely isolated from external accounts — uncheck it. In those environments, the local account should be the only way in, full stop.
+>
+> **Not sure which applies to you?** Leave it checked. You can always change this later in System Settings → Users & Groups.
 
 ---
 
