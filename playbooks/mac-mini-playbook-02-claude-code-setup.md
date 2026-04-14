@@ -46,10 +46,11 @@ Your Mac Mini came with Safari. Chrome is not in the Mac App Store — you downl
 2. Go to **google.com/chrome**
 3. Click **"Download Chrome"**
 4. Open the downloaded file — it appears in your Downloads folder or at the bottom of the Safari window
-5. Drag the Chrome icon into your **Applications folder** when the window appears
-6. Open Chrome from your Applications folder
+5. An installer window opens showing the Chrome icon and an Applications folder. **Drag the Chrome icon into the Applications folder.** Don't close this window until the drag is complete — same rule as your API key.
+6. Once Chrome is in Applications, **eject the Chrome disk image.** You'll see a small drive icon appear in the upper right corner of your monitor. Right-click it and select **"Eject"** — or drag it to the Trash (the Trash icon becomes an eject arrow when you do this). This is just cleanup — Chrome is already installed.
+7. Open Chrome from your Applications folder
 
-Chrome will ask if you want to set it as your default browser. That's your call — no wrong answer.
+**Chrome will ask to send you notifications.** For your AI powerhouse, click **"Block"** — this machine is for building, not for getting pinged by websites. You can always allow notifications for specific sites later if you need to.
 
 ---
 
