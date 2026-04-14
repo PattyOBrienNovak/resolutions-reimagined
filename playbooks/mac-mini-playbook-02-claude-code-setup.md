@@ -63,6 +63,16 @@ Your Mac Mini came with Safari. Chrome is not in the Mac App Store — you downl
 >
 > Prefer to keep things separate? Click **"Skip"** — Chrome works completely fine without a Google account attached.
 
+**⚠️ Gotcha: Google may sign you in using a passkey through your iPhone.**
+Instead of asking for your password, Google sends an approval request to your iPhone — you confirm with Face ID. This is more secure than a password, but it's unexpected if you're not ready for it.
+- When Chrome asks to "use a passkey," approve it
+- Pick up your iPhone — a notification or prompt will appear
+- Confirm with Face ID
+- You're signed in
+
+> **Have multiple Google accounts?** Sign in to your primary one now. You can add additional Google accounts to Chrome later through the profile icon in the top right corner of the browser.
+
+
 **Chrome will also ask to send you notifications.** Click **"Block"** — this machine is for building, not for getting pinged by websites. You can always allow notifications for specific sites later if you need to.
 
 ---
