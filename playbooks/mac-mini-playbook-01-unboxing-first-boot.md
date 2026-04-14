@@ -333,6 +333,10 @@ End-to-end encryption for almost everything in iCloud — even Apple can't acces
 
 > **The tradeoff:** Maximum privacy, but if you lose access to all your trusted devices without a recovery option, your data is gone permanently. Apple cannot help you recover it.
 >
+> **⚠️ Gotcha:** Apple won't let you add a recovery contact from a brand new device for security reasons. A device that just signed in can't immediately change account recovery settings — that's actually smart security.
+> → **Set up your recovery contact from your iPhone instead:** Settings → your name → iCloud → Advanced Data Protection
+> → Or skip for now and come back in a few days when your Mac Mini is a fully trusted device.
+>
 > **Recovery options — pick one:**
 > - **Recovery contact** — a trusted person who can help you regain access
 > - **Recovery key** — a code to save in your password manager or print and store securely
