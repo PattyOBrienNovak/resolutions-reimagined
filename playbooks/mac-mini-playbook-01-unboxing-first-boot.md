@@ -231,6 +231,14 @@ This is the important one — it connects your Mac Mini to your entire Apple eco
 **Terms and Conditions**
 → Read if you'd like, then agree and arrow through. Yes, everyone agrees.
 
+**Make This Your New Mac**
+→ macOS recognizes your Apple ID has been used on previous Macs and offers to restore their settings.
+→ **Skip this.** Look for "Customize Settings" or a way to bypass entirely.
+
+> **Why skip?** Old settings from old Macs — including work Macs — don't belong on your new AI powerhouse. You're building this machine intentionally from scratch. Everything that actually matters (contacts, calendar, bookmarks) already synced when you signed in with your Apple ID.
+>
+> Clean machine. Clean foundations. Clean start.
+
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
 
