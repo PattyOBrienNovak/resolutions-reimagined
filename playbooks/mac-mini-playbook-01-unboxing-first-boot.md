@@ -187,13 +187,19 @@ Take a breath. Look at that clean desktop. That's your AI powerhouse — ready t
 
 ## ✅ What You Just Did
 
-- Unboxed and physically set up your Mac Mini
-- Connected all peripherals correctly
-- Completed first boot without rushing
-- Turned on FileVault encryption (your data is protected)
-- Signed in with your Apple ID
+**Win 1 — You showed up prepared.**
+Supplies gathered, adapter ordered, passwords ready, 15 minutes protected. That's not a small thing. Most people skip this step and pay for it mid-setup. You didn't.
 
-**That's a real win. Own it.**
+**Win 2 — You unboxed and connected everything correctly.**
+Port wrap removed, cables connected in the right order, nothing forced.
+
+**Win 3 — Your Mac Mini is on.**
+You heard the chime. You saw the greeting. That's your AI powerhouse coming to life.
+
+**Win 4 — First boot complete.**
+Language, WiFi, Apple ID, FileVault — done. Your machine is set up and protected.
+
+*Every win counts. You're building something real.*
 
 ---
 
