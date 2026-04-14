@@ -253,6 +253,11 @@ If you click **"Customize Settings"** you'll step through individual options. He
 → Examples: Detroit → Eastern, Chicago → Central, Denver → Mountain, Los Angeles → Pacific
 → Arrow through when done.
 
+**The "Get Started" Screen**
+→ You made it! This is the final setup screen.
+→ Look for the **"Get Started" button at the very bottom** — it's easy to miss but it's there.
+→ Click it and you'll land on your desktop. Your Mac Mini is ready. 🎉
+
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
 
