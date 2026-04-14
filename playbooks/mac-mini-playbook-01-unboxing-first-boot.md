@@ -319,6 +319,14 @@ Fill in your details — but read this first:
 **Siri**
 → Personal preference. Fine to enable or skip.
 
+**Update Mac Automatically**
+Two options — this one matters for a server:
+
+- **Download and Install Automatically** — convenient but risky. An update could restart your machine mid-automation, mid-agent run, or at any inconvenient moment.
+- **Download Only** ✅ — updates download silently in the background. You decide when to install and restart.
+
+→ **Choose "Download Only."** Your AI powerhouse restarts on your schedule, not Apple's.
+
 **Screen Time**
 → Designed for managing app limits, usage tracking, and parental controls.
 → **Skip it** — not relevant for an AI server. Arrow through.
