@@ -248,7 +248,9 @@ If you click **"Customize Settings"** you'll step through individual options. He
 
 **Time Zone**
 → The first option "Set time zone automatically using current location" requires Location Services — which you just turned off.
-→ **Uncheck that option** and manually select your time zone from the list instead.
+→ **Uncheck that option** and set your timezone manually instead.
+→ You won't see a timezone list directly — instead **type your closest major city** and macOS will set the timezone automatically based on it.
+→ Examples: Detroit → Eastern, Chicago → Central, Denver → Mountain, Los Angeles → Pacific
 → Arrow through when done.
 
 **Setting Up Your Account**
