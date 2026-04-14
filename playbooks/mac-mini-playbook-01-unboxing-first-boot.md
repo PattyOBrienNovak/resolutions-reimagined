@@ -88,6 +88,12 @@ Plug your monitor cable into the back of the Mac Mini.
 - Wired: plug into the USB-A port closest to the power port — leaves the other two free for future use
 - Wireless: have it nearby, you'll pair it during setup
 
+> **⚠️ Apple Magic Keyboard owners:** Your keyboard has a physical **on/off switch** — and it ships turned OFF.
+> - Find the switch on the back or side of the keyboard (the actual location may differ from the instruction manual picture — don't panic, look carefully)
+> - Slide it to **ON** before setup
+> - During first boot, macOS will detect and pair it automatically
+> - If you skip this, your keyboard won't respond and you'll wonder what's wrong — now you know!
+
 **3. Mouse or trackpad**
 - Wired: plug into an available USB-A port
 - Wireless with USB-C dongle: plug directly into one of the **USB-C/Thunderbolt ports** on the back — no adapter needed!
