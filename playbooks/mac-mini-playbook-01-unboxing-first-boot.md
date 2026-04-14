@@ -207,6 +207,27 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 **Terms and Conditions**
 → Agree. (Yes, everyone agrees.)
 
+**Create Your Mac Account**
+Fill in your details — but read this first:
+
+| Field | Guidance |
+|---|---|
+| **Full Name** | Your real name — displayed on the login screen |
+| **Account Name** | ⚠️ See warning below |
+| **Password** | Strong password, different from your Apple ID — write it somewhere safe |
+| **Hint** | Optional — something only you'd understand |
+
+> **⚠️ Critical: Fix your Account Name before continuing**
+> macOS automatically populates the Account Name as a lowercase, no-spaces version of your Full Name. So if your name is Patricia O'Brien, it fills in `patriciaobrien` — and that becomes your home folder path forever: `/Users/patriciaobrien/...`
+>
+> **Clear it out. Type something short instead.**
+> - `patty` ✅
+> - `patricia` ✅
+> - `pat` ✅
+> - `patriciaobrien` ❌ — long, annoying in Terminal, painful to change later
+>
+> This is one of those decisions you make once and live with forever. Take 10 seconds to get it right.
+
 **iCloud**
 → You'll be asked what to sync. **Keep defaults for now.** We'll revisit storage strategy in a later playbook.
 
