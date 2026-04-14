@@ -239,6 +239,12 @@ This is the important one — it connects your Mac Mini to your entire Apple eco
 >
 > Clean machine. Clean foundations. Clean start.
 
+If you click **"Customize Settings"** you'll step through individual options. Here's what to do with each:
+
+**Location Services**
+→ Leave **off**. Your Mac Mini sits on a desk — it's not a mobile device. No need to share its location.
+→ *Can be enabled anytime later: System Settings → Privacy & Security → Location Services*
+
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
 
