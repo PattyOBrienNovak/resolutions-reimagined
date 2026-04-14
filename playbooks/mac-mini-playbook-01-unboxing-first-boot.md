@@ -322,7 +322,9 @@ Turn it off immediately:
 3. Click **iCloud**
 4. Find **Photos** → turn off **"Sync this Mac"**
 
-Your photos stay safe on your iPhone and in iCloud — just not downloaded to this machine. This is a server, not a photo library.
+Mac will ask: **"Do you want to download a copy of your iCloud photos to this Mac?"**
+→ Click **"Delete from Mac"** — removes any photos already downloaded without touching anything in iCloud.
+→ Your photos stay completely safe in iCloud and on your iPhone. Nothing is lost. This machine just won't store them locally.
 
 **FileVault Encryption**
 → **Turn this ON.** This encrypts your entire drive, protecting your data if the Mac Mini is ever stolen or accessed without permission. Save the recovery key somewhere safe (password manager or printed and stored securely).
