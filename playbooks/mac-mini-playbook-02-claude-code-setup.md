@@ -72,6 +72,23 @@ Instead of asking for your password, Google sends an approval request to your iP
 
 > **Have multiple Google accounts?** Sign in to your primary one now. You can add additional Google accounts to Chrome later through the profile icon in the top right corner of the browser.
 
+**⚠️ Chrome may ask to save your passwords as you sign in — including your password manager's master password. Click "Never" for your master password.**
+
+> Your Bitwarden (or 1Password) master password is the key to your entire vault — every password, every API key, everything you store. Saving it inside Chrome means if Chrome is ever compromised, everything is. The master password is the **one password you memorize.** Everything else goes in the vault. If you're worried about forgetting it, write it on paper and store it somewhere physically secure — not in any app.
+
+**A note on password managers: Bitwarden vs 1Password**
+
+Both are excellent. Here's the honest comparison for AI and developer work:
+
+| | Bitwarden | 1Password |
+|---|---|---|
+| **Cost** | Free (or $10/year for premium) | ~$3/month |
+| **Security** | Excellent — open source, audited | Excellent |
+| **For AI/developer work** | Works great | Has a CLI that injects secrets into terminal commands |
+| **Switching cost** | — | Its own project — don't do it mid-setup |
+
+**Recommendation:** If Bitwarden is working for you, stay with it for now. 1Password's CLI is genuinely useful when you're managing many API keys across many projects — but that's a future decision, not a today one. Finish setting up your Mac Mini first. Switching password managers can be its own playbook when the time is right.
+
 
 **Chrome will also ask to send you notifications.** Click **"Block"** — this machine is for building, not for getting pinged by websites. You can always allow notifications for specific sites later if you need to.
 
