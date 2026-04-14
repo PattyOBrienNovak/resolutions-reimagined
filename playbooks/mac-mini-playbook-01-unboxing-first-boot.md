@@ -244,6 +244,7 @@ If you click **"Customize Settings"** you'll step through individual options. He
 **Location Services**
 → Leave **off**. Your Mac Mini sits on a desk — it's not a mobile device. No need to share its location.
 → *Can be enabled anytime later: System Settings → Privacy & Security → Location Services*
+> **Apple will ask you again:** "Are you sure you don't want to use Location Services?" — Click **"Don't Use."** Stand your ground. 😄
 
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
