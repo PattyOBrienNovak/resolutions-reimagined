@@ -157,6 +157,12 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 
 ---
 
+> **"Allow Mac account password to be reset with your Apple ID"**
+> Apple pre-checks this option. **Leave it checked.**
+> This means if you ever forget your Mac login password, your Apple ID becomes your backup key to get back in. For an always-on AI server where being locked out could disrupt everything, having a recovery option is smart — not a security risk. Your Apple ID is already protected by two-factor authentication.
+
+---
+
 > **⚠️ Gotcha #2: Clicking a language doesn't advance the screen**
 > At the language selection screen, clicking on your language highlights it — but doesn't move you forward. Don't keep clicking thinking something is broken!
 > Look for the **arrow button at the bottom right corner** of the screen. That's what advances you. This applies throughout the setup — when in doubt, look for the arrow or Continue button bottom right.
