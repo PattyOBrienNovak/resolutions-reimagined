@@ -295,6 +295,13 @@ Fill in your details — but read this first:
 **iCloud**
 → You'll be asked what to sync. **Keep defaults for now.** We'll revisit storage strategy in a later playbook.
 
+**Analytics**
+→ Apple asks to share crash reports and usage data.
+→ **Uncheck it** on your AI powerhouse.
+
+> On a personal phone or laptop, sharing analytics is reasonable — it helps Apple improve their products. But on a server running agents, automations, and sensitive email data, less data leaving your machine is better practice.
+> Your AI server shares data on your terms, not by default.
+
 **FileVault Encryption**
 → **Turn this ON.** This encrypts your entire drive, protecting your data if the Mac Mini is ever stolen or accessed without permission. Save the recovery key somewhere safe (password manager or printed and stored securely).
 
