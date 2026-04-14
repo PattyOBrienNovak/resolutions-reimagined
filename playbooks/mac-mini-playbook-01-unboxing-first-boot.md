@@ -323,8 +323,14 @@ Fill in your details — but read this first:
 → Designed for managing app limits, usage tracking, and parental controls.
 → **Skip it** — not relevant for an AI server. Arrow through.
 
-**Appearance**
-→ Light or Dark mode — your choice!
+**Choose Your Look**
+Three options — purely personal preference:
+
+- **Light** — white backgrounds, dark text. Classic look, easier in bright rooms.
+- **Dark** — dark backgrounds, light text. Easier on the eyes at night or in low light. Popular with developers.
+- **Auto** — switches between Light and Dark automatically based on time of day. ✅ Recommended — best of both.
+
+→ Choose whatever feels right. You can change it anytime: System Settings → Appearance.
 
 ---
 
