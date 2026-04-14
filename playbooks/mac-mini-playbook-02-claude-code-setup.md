@@ -50,7 +50,12 @@ Your Mac Mini came with Safari. Chrome is not in the Mac App Store — you downl
 6. Once Chrome is in Applications, **eject the Chrome disk image.** You'll see a small drive icon appear in the upper right corner of your monitor. Right-click it and select **"Eject"** — or drag it to the Trash (the Trash icon becomes an eject arrow when you do this). This is just cleanup — Chrome is already installed.
 7. Open Chrome from your Applications folder
 
-**Chrome will ask to send you notifications.** For your AI powerhouse, click **"Block"** — this machine is for building, not for getting pinged by websites. You can always allow notifications for specific sites later if you need to.
+**Chrome will open with a "Welcome to Google Chrome" screen.** Two things to do here:
+
+- **"Make Google Chrome your default browser"** — click it. Chrome is where you'll be doing most of your work on this machine.
+- **"Automatically send usage statistics and crash reports to Google"** — this is pre-checked. **Uncheck it.** Your AI powerhouse shares data on your terms, not Google's by default.
+
+**Chrome will also ask to send you notifications.** Click **"Block"** — this machine is for building, not for getting pinged by websites. You can always allow notifications for specific sites later if you need to.
 
 ---
 
