@@ -9,10 +9,10 @@
 
 ## Before You Begin
 
-**⏱ Time Required: 15 minutes**
+**⏱ Time Required: 30 minutes**
 **Interruption Risk: HIGH — do not start if you can't finish**
 
-*This playbook has one job: get your Mac Mini powered on and set up. That's it. One clear win in 15 minutes.*
+*This playbook has one job: get your Mac Mini powered on and set up. That's it. Many people finish in 20 minutes — but give yourself 30 so you never feel rushed.*
 
 > **Why interruption risk is high:** First boot asks questions that shape your entire setup — Apple ID, iCloud, privacy settings. A rushed or interrupted first boot creates problems that take hours to untangle. Your focused 15 minutes now saves frustrated hours later.
 
@@ -309,7 +309,8 @@ Fill in your details — but read this first:
 → Personal preference. Fine to enable or skip.
 
 **Screen Time**
-→ Skip for now.
+→ Designed for managing app limits, usage tracking, and parental controls.
+→ **Skip it** — not relevant for an AI server. Arrow through.
 
 **Appearance**
 → Light or Dark mode — your choice!
