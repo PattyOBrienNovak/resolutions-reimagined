@@ -231,6 +231,13 @@ This is the important one — it connects your Mac Mini to your entire Apple eco
 **Terms and Conditions**
 → Read if you'd like, then agree and arrow through. Yes, everyone agrees.
 
+**Setting Up Your Account**
+→ You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
+
+> **This is your moment.** Go get a coffee. Grab some chocolate. Take a breath.
+> Your Mac Mini has got this — no clicks, no decisions needed. Just let it do its thing.
+> It'll be ready when you get back. ☕🍫
+
 **Create Your Mac Account**
 
 > **This is NOT your Apple ID.** This is a separate account that lives only on this Mac Mini — it's how you log in to this specific machine. Think of it as the key to this computer, not your Apple identity.
