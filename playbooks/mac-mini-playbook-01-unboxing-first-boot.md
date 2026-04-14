@@ -82,7 +82,12 @@ Plug your monitor cable into the back of the Mac Mini.
 - Wireless: have it nearby, you'll pair it during setup
 
 **3. Mouse or trackpad**
-- Same as keyboard — wired in now, wireless paired during setup
+- Wired: plug into an available USB-A port
+- Wireless with USB-C dongle: plug directly into one of the **USB-C/Thunderbolt ports** on the back — no adapter needed!
+- Wireless with USB-A dongle: plug into an available USB-A port
+- Wireless Bluetooth only: have it nearby, you'll pair it during setup
+
+> **Good to know:** The Mac Mini M4 has both USB-A (rectangular) and USB-C/Thunderbolt (small oval) ports on the back. Check which connector your mouse or dongle uses before reaching for an adapter — you may not need one.
 
 **4. Power cable last**
 Plug the power cable into the back of the Mac Mini, then into the wall.
