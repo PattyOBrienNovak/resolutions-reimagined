@@ -208,6 +208,17 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 → Agree. (Yes, everyone agrees.)
 
 **Create Your Mac Account**
+
+> **This is NOT your Apple ID.** This is a separate account that lives only on this Mac Mini — it's how you log in to this specific machine. Think of it as the key to this computer, not your Apple identity.
+>
+> | | Mac Account | Apple ID |
+> |---|---|---|
+> | **What it is** | Login for this Mac Mini | Your Apple identity |
+> | **Where it works** | This machine only | All Apple devices |
+> | **What it controls** | Who can use this computer | iCloud, App Store, etc. |
+>
+> You'll sign in with your Apple ID in the next step. This step is just for this machine.
+
 Fill in your details — but read this first:
 
 | Field | Guidance |
