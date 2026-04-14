@@ -254,9 +254,15 @@ If you click **"Customize Settings"** you'll step through individual options. He
 → Arrow through when done.
 
 **The "Get Started" Screen**
-→ You made it! This is the final setup screen.
 → Look for the **"Get Started" button at the very bottom** — it's easy to miss but it's there.
-→ Click it and you'll land on your desktop. Your Mac Mini is ready. 🎉
+→ Click it to continue.
+
+**Keyboard Setup Assistant**
+→ A window may appear saying your keyboard "cannot be identified."
+→ Don't panic — this sounds scarier than it is.
+→ It's triggered because macOS sees your mouse (a non-keyboard USB device) and gets confused.
+→ If your keyboard is working fine (and it is), the message itself tells you what to do: **click "Quit"** to close the assistant.
+→ Your Apple Magic Keyboard is already known to macOS — no identification needed.
 
 **Setting Up Your Account**
 → You'll see a spinning progress screen. macOS is creating your account, connecting to iCloud, and getting everything ready.
