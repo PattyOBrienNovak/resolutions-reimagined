@@ -27,6 +27,13 @@
 - [ ] Power outlet nearby
 - [ ] 15 minutes of uninterrupted time
 
+> **⚠️ Check this before you start: Do you have a USB-A mouse?**
+> The Mac Mini M4 uses USB-C ports. If your mouse has a USB-A connector (the older, rectangular plug), you'll need a **USB-C to USB-A adapter** before you can connect it.
+>
+> 👉 [Shop Anker USB-C to USB-A Adapters](https://www.anker.com/collections/usb-c-to-usb-a-adapter) — reliable, affordable, and worth having on hand permanently.
+>
+> **Order it first if you need it.** Don't start setup without your mouse — you'll need it.
+
 ---
 
 > **A note for our clients:**
