@@ -326,6 +326,19 @@ Mac will ask: **"Do you want to download a copy of your iCloud photos to this Ma
 → Click **"Delete from Mac"** — removes any photos already downloaded without touching anything in iCloud.
 → Your photos stay completely safe in iCloud and on your iPhone. Nothing is lost. This machine just won't store them locally.
 
+**Advanced Data Protection (iCloud)**
+End-to-end encryption for almost everything in iCloud — even Apple can't access your data.
+
+→ **Turn it ON** — but set up a recovery option first. macOS will walk you through it before enabling.
+
+> **The tradeoff:** Maximum privacy, but if you lose access to all your trusted devices without a recovery option, your data is gone permanently. Apple cannot help you recover it.
+>
+> **Recovery options — pick one:**
+> - **Recovery contact** — a trusted person who can help you regain access
+> - **Recovery key** — a code to save in your password manager or print and store securely
+>
+> Set up your recovery option first. Then enable. Don't skip this step.
+
 **FileVault Encryption**
 → **Turn this ON.** This encrypts your entire drive, protecting your data if the Mac Mini is ever stolen or accessed without permission. Save the recovery key somewhere safe (password manager or printed and stored securely).
 
