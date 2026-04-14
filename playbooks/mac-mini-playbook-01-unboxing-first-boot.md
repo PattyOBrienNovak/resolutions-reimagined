@@ -119,7 +119,15 @@ The Mac Mini does **not** turn on automatically when you plug it in. You need to
 
 Press it once. You'll hear a chime and see the Apple logo appear on your monitor within a few seconds.
 
-> **Why the bottom?** This is intentional Apple design. A power button you can't accidentally brush past is critical when your Mac Mini is running as an always-on server — powering your AI agents, automations, and email intelligence 24/7. One accidental tap could interrupt everything. Apple thought of this so you don't have to.
+> **Why the bottom? Apple is taking care of you.**
+>
+> This is intentional, brilliant design. Think about what you're building — an always-on AI server running agents, automations, email intelligence, and more, 24 hours a day, 7 days a week.
+>
+> A power button you can accidentally brush past, knock with a cable, or hit while cleaning your desk? That's a disaster. One unintended tap and everything stops — your agents go offline, your automations halt, your work is interrupted.
+>
+> By putting the power button on the bottom, Apple made it virtually impossible to turn off accidentally. You have to deliberately pick up the Mac Mini and press a hidden button to shut it down. That's not an accident. That's a choice.
+>
+> Apple designed the Mac Mini M4 with always-on, server-style use in mind. They thought of this so you don't have to worry about it. Your AI powerhouse stays on. Your work keeps running. That's Apple taking care of you.
 
 > **Nothing on your monitor?** Check that:
 > - Your monitor is powered on
