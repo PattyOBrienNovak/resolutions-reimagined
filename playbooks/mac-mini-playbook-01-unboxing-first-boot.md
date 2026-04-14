@@ -115,9 +115,11 @@ Plug the power cable into the back of the Mac Mini, then into the wall.
 
 The Mac Mini does **not** turn on automatically when you plug it in. You need to press the power button.
 
-**Power button location:** Back of the Mac Mini, **bottom right corner**.
+**Power button location:** On the **bottom** of the Mac Mini — flip it over slightly to find it.
 
 Press it once. You'll hear a chime and see the Apple logo appear on your monitor within a few seconds.
+
+> **Why the bottom?** This is intentional Apple design. A power button you can't accidentally brush past is critical when your Mac Mini is running as an always-on server — powering your AI agents, automations, and email intelligence 24/7. One accidental tap could interrupt everything. Apple thought of this so you don't have to.
 
 > **Nothing on your monitor?** Check that:
 > - Your monitor is powered on
