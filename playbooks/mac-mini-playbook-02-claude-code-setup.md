@@ -278,6 +278,11 @@ While you're here — install the Claude desktop app. It gives you Claude as a n
 
 That's it. Claude is now a permanent part of your Mac Mini.
 
+**After Claude opens, it will ask for a few permissions. Allow all of these:**
+- **"Claude would like to find devices on your local network"** → Allow. This is needed for Dispatch and for Claude to work with other devices on your network as you build.
+
+> These are one-time prompts. macOS won't keep asking.
+
 ---
 
 ## ✅ What You Just Did
