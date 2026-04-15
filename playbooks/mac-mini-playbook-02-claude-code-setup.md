@@ -213,7 +213,7 @@ Type:
 claude
 ```
 
-The first time you run Claude Code, it will prompt you for your API key. Paste the key you saved earlier.
+Claude Code will walk you through a short setup. Use your **arrow keys** to move between options and press **Enter** to select. No mouse needed — Terminal is keyboard-driven.
 
 > **Can't find your key?** Go back to console.anthropic.com, create a new one named `mac-mini-2`, copy it immediately, and save it this time before closing the window.
 
