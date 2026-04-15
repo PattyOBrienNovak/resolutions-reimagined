@@ -225,6 +225,11 @@ Claude Code will walk you through a short setup. Use your **arrow keys** to move
 > - **Your files are in iCloud Drive** → Click **"Allow"** — one-time permission, won't ask again.
 > - **Your files are in Google Drive** → Click **"Don't Allow"** — you're not working out of iCloud, so Terminal doesn't need access to it.
 
+**macOS may ask: "Terminal would like to access files in your Downloads folder."**
+→ Click **"Allow."** Downloads is where installers and files land — Terminal needs access to work with them.
+
+> **"Why didn't it ask about my Documents folder?"** macOS doesn't always ask upfront for every folder. It may ask about Documents later when something actually tries to access it, or it may already be covered. If it never asks, that's fine — nothing is wrong.
+
 **Claude Code will ask: "Do you trust the workspace you started in?"**
 → Click **Yes**. This is a security check — Claude Code is asking permission to work in the folder you opened it from. You'll see this every time you start Claude Code in a new folder. Always glance at the folder name to confirm it's where you meant to be, then trust it.
 
