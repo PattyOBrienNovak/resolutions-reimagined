@@ -136,7 +136,7 @@ jupyter notebook
 
 Jupyter will launch and open automatically in Chrome. You'll see the Jupyter file browser — a list of folders and files on your Mac Mini.
 
-> **Terminal will stay busy** while Jupyter is running — you'll see log messages scrolling. That's normal. Don't close Terminal while Jupyter is open or Jupyter will stop.
+> **⚠️ Keep that Terminal window open.** Terminal is the engine running Jupyter in the background. As long as Jupyter is open in Chrome, that Terminal window must stay open. Close it and Jupyter stops immediately. You can minimize it — just don't close it.
 
 ---
 
