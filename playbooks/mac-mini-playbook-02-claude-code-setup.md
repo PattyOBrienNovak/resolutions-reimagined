@@ -265,13 +265,16 @@ Type `/exit` or press **Ctrl + C** to close the session.
 
 While you're here — install the Claude desktop app. It gives you Claude as a native Mac app, always one click away, separate from your browser.
 
-1. Go to **claude.ai** in Chrome — look for the download link for the desktop app
-2. Click the **macOS** option to download
-3. Double-click the downloaded file in your Downloads folder
-4. Drag the **Claude icon into your Applications folder**
-5. Open Claude using **Spotlight** — Command + Space, type Claude, press Enter
-6. macOS will ask **"Are you sure you want to open this?"** — click **Open**. This is standard Mac security for apps downloaded outside the App Store.
-7. Once Claude opens, **right-click the Claude icon in your dock** → choose **"Keep in Dock"** so it's always one click away
+1. Go to **claude.ai** in Chrome
+2. Look for a **"Download the app"** link — it's typically in the sidebar or the bottom of the page
+3. Click **macOS** to download the Mac version
+4. Open your **Downloads folder** — click the Finder icon in your dock (the blue and white smiley face), then click Downloads in the left sidebar
+5. **Double-click the Claude file** you just downloaded
+6. An installer window opens. **Drag the Claude icon into the Applications folder** — same as Chrome
+7. **Don't close the window until the drag is complete**
+8. Open **Spotlight** — press **Command + Space** — type **Claude** — press **Enter**
+9. macOS will ask **"Are you sure you want to open this?"** — click **Open**. This is standard Mac security for apps downloaded from the internet, not the App Store. It's not a warning — it's just a check.
+10. Once Claude opens, find the **Claude icon in your dock** at the bottom of the screen → **right-click it** → choose **"Keep in Dock"** so it stays there permanently
 
 That's it. Claude is now a permanent part of your Mac Mini.
 
