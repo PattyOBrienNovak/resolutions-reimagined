@@ -261,6 +261,22 @@ Type `/exit` or press **Ctrl + C** to close the session.
 
 ---
 
+## Bonus: Install the Claude Desktop App
+
+While you're here — install the Claude desktop app. It gives you Claude as a native Mac app, always one click away, separate from your browser.
+
+1. Go to **claude.ai** in Chrome — look for the download link for the desktop app
+2. Click the **macOS** option to download
+3. Double-click the downloaded file in your Downloads folder
+4. Drag the **Claude icon into your Applications folder**
+5. Open Claude using **Spotlight** — Command + Space, type Claude, press Enter
+6. macOS will ask **"Are you sure you want to open this?"** — click **Open**. This is standard Mac security for apps downloaded outside the App Store.
+7. Once Claude opens, **right-click the Claude icon in your dock** → choose **"Keep in Dock"** so it's always one click away
+
+That's it. Claude is now a permanent part of your Mac Mini.
+
+---
+
 ## ✅ What You Just Did
 
 **Win 1 — Chrome installed.**
@@ -274,6 +290,9 @@ You have a package manager. Installing future tools is now a one-line command.
 
 **Win 4 — Claude Code is live on your Mac Mini.**
 Your AI development partner is running on your AI powerhouse. This is the tool you'll use to build everything in this series.
+
+**Win 5 — Claude desktop app installed.**
+You have Claude available as a native Mac app — always one click away.
 
 *You just set up a professional AI development environment. That's not a small thing.*
 
