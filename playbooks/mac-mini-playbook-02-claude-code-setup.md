@@ -185,6 +185,9 @@ You'll see a version number like `v22.x.x`. That means Node.js is installed and 
 
 ## Step 6: Install Claude Code
 
+> **⚠️ Heads up — installation method may have changed.**
+> Anthropic is transitioning Claude Code from npm to a native installer. The npm method below worked at the time this playbook was written, but if you see a message about a native installer during or after setup, follow that link instead. Check **docs.anthropic.com** for the most current installation instructions if anything looks different.
+
 One command:
 
 ```
