@@ -217,7 +217,10 @@ Claude Code will walk you through a short setup. Use your **arrow keys** to move
 
 > **Can't find your key?** Go back to console.anthropic.com, create a new one named `mac-mini-2`, copy it immediately, and save it this time before closing the window.
 
-Once your key is accepted, Claude Code opens a session and you're connected.
+**Claude Code will ask: "Do you trust the workspace you started in?"**
+→ Click **Yes**. This is a security check — Claude Code is asking permission to work in the folder you opened it from. You'll see this every time you start Claude Code in a new folder. Always glance at the folder name to confirm it's where you meant to be, then trust it.
+
+Claude Code is now open and connected.
 
 ---
 
