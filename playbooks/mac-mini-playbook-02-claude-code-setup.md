@@ -72,6 +72,8 @@ Instead of asking for your password, Google sends an approval request to your iP
 
 > **Have multiple Google accounts?** Sign in to your primary one now. You can add additional Google accounts to Chrome later through the profile icon in the top right corner of the browser.
 
+> **⚠️ You may see a notification: "Google Updater is running in background activity."** That's Chrome's auto-updater keeping itself current. It's normal — dismiss the notification and let it run. Nothing is wrong.
+
 **⚠️ Chrome may ask to save your passwords as you sign in — including your password manager's master password. Click "Never" for your master password.**
 
 > Your Bitwarden (or 1Password) master password is the key to your entire vault — every password, every API key, everything you store. Saving it inside Chrome means if Chrome is ever compromised, everything is. The master password is the **one password you memorize.** Everything else goes in the vault. If you're worried about forgetting it, write it on paper and store it somewhere physically secure — not in any app.
