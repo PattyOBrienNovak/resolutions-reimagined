@@ -188,9 +188,6 @@ macOS will walk you through setup. Here's what to expect and what to choose:
 
 > **Note for our clients:** These accessibility features are genuinely powerful and worth exploring when you have time. Apple has put real thought into making their products work for everyone. But setup is not the moment — come back to this when you're settled in.
 
-**Accessibility**
-→ Skip for now unless you need specific settings. You can always add these later.
-
 **WiFi**
 → Connect to your home or office WiFi. Have your password ready.
 
@@ -317,10 +314,12 @@ Fill in your details — but read this first:
 When you sign in with your Apple ID, iCloud automatically starts syncing your entire photo library to your Mac Mini. On a 256GB AI powerhouse, this can consume your storage fast.
 
 Turn it off immediately:
-1. Apple menu → **System Settings**
-2. Click your **name** at the top
+1. Click the **Apple logo** () in the very top left corner of your screen → **System Settings**
+2. Click your **name** at the top of the Settings window
 3. Click **iCloud**
 4. Find **Photos** → turn off **"Sync this Mac"**
+
+> **New to Mac?** The Apple logo in the top left corner is your main menu — like the Start button on Windows. System Settings is where you control everything about how your Mac works. You'll use it often.
 
 Mac will ask: **"Do you want to download a copy of your iCloud photos to this Mac?"**
 → Click **"Delete from Mac"** — removes any photos already downloaded without touching anything in iCloud.
@@ -415,10 +414,10 @@ Language, WiFi, Apple ID, FileVault — done. Your machine is set up and protect
 
 ## What Comes Next
 
-**Playbook 2: External SSD Setup**
-Expand your storage and set up your dedicated workspace — before we install anything else.
+**Playbook 2: Claude Code Setup**
+Install Chrome, Homebrew, and Claude Code — your AI development partner.
 
-*Time Required: 10 minutes*
+*Time Required: 20 minutes*
 
 ---
 

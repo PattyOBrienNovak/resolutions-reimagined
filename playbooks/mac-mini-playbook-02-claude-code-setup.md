@@ -42,13 +42,13 @@ Your Mac Mini came with Safari. Chrome is not in the Mac App Store — you downl
 
 > **First time setting up your own machine?** This is how most Mac apps that aren't in the App Store work — download from the company's website, drag to Applications. You'll do this a few more times in this series. It gets familiar fast.
 
-1. Open **Safari** (it's in your dock or Applications folder)
+1. Open **Safari** — look for it in your **dock** (the bar of icons at the bottom of your screen) or press **Command + Space**, type Safari, and press Enter
 2. Go to **google.com/chrome**
 3. Click **"Download Chrome"**
 4. Open the downloaded file — it appears in your Downloads folder or at the bottom of the Safari window
 5. An installer window opens showing the Chrome icon and an Applications folder. **Drag the Chrome icon into the Applications folder.** Don't close this window until the drag is complete — same rule as your API key.
 6. Once Chrome is in Applications, **eject the Chrome disk image.** You'll see a small drive icon appear in the upper right corner of your monitor. Right-click it and select **"Eject"** — or drag it to the Trash (the Trash icon becomes an eject arrow when you do this). This is just cleanup — Chrome is already installed.
-7. Open Chrome from your Applications folder
+7. Open Chrome — press **Command + Space**, type Chrome, press Enter. Or open **Finder** (the blue and white smiley face in your dock) → click **Applications** in the left sidebar → double-click Chrome
 
 **Chrome will open with a "Welcome to Google Chrome" screen.** Two things to do here:
 
@@ -303,10 +303,10 @@ You have Claude available as a native Mac app — always one click away.
 
 ## What Comes Next
 
-**Playbook 3: Cursor Setup**
-Install and configure Cursor — the AI-powered code editor for your projects.
+**Playbook 3: Jupyter Notebook Setup**
+Install Jupyter locally — required for the Anthropic certification course and AI development work.
 
-*Time Required: 15 minutes*
+*Time Required: 20 minutes*
 
 ---
 
