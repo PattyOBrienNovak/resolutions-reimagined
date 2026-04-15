@@ -230,6 +230,14 @@ Claude Code will walk you through a short setup. Use your **arrow keys** to move
 
 > **"Why didn't it ask about my Documents folder?"** macOS doesn't always ask upfront for every folder. It may ask about Documents later when something actually tries to access it, or it may already be covered. If it never asks, that's fine — nothing is wrong.
 
+**macOS will ask Terminal for access to several folders and apps.** You'll see a series of permission prompts — one at a time — for things like:
+- Downloads folder
+- Desktop folder
+- Documents folder
+- Data from other apps
+
+→ **Allow all of them.** You're building an AI powerhouse. Terminal needs access to your files and apps to do its job. These are one-time prompts — macOS won't keep asking.
+
 **Claude Code will ask: "Do you trust the workspace you started in?"**
 → Click **Yes**. This is a security check — Claude Code is asking permission to work in the folder you opened it from. You'll see this every time you start Claude Code in a new folder. Always glance at the folder name to confirm it's where you meant to be, then trust it.
 
