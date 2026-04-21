@@ -172,19 +172,23 @@ When you're finished working in Jupyter:
 
 ## Every Time You Use Jupyter
 
-Unlike Chrome or the Claude app, Jupyter doesn't stay running. Each time you want to use it, you'll do two steps in Terminal:
+Unlike Chrome or the Claude app, Jupyter doesn't stay running. Each time you want to use it, you'll do three steps in Terminal:
 
-**1. Activate your virtual environment:**
+**1. Navigate to your project folder first:**
+```
+cd ~/your-course-folder
+```
+> **This matters.** Jupyter serves files from whatever folder you launch it from. Launch from your home directory and your notebooks end up scattered. Launch from your course or project folder and everything stays organized. Always navigate to the right folder before launching.
+
+**2. Activate your virtual environment:**
 ```
 source ~/jupyter-env/bin/activate
 ```
 
-**2. Launch Jupyter:**
+**3. Launch Jupyter:**
 ```
 jupyter notebook
 ```
-
-> **Tip:** These two commands are your Jupyter launch sequence. You'll type them enough times that they'll become automatic.
 
 ---
 
