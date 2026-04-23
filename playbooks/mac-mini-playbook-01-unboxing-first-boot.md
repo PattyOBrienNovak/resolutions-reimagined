@@ -27,6 +27,8 @@
 - [ ] Power outlet nearby
 - [ ] 15 minutes of uninterrupted time
 
+> **Planning to use Claude agents (Route 2)?** Add two more items to this list before you begin: your agent's dedicated Gmail address and the Apple ID you created for it. See the "Two Ways to Use Your Mac Mini" section below before starting setup.
+
 > **⚠️ Check this before you start: Do you have a USB-A mouse?**
 > The Mac Mini M4 uses USB-C ports. If your mouse has a USB-A connector (the older, rectangular plug), you'll need a **USB-C to USB-A adapter** before you can connect it.
 >
@@ -38,6 +40,84 @@
 
 > **A note for our clients:**
 > *Every tutorial you've ever read assumed your time was unlimited. It isn't. You're building a business, running a life, and showing up for the people who need you. These playbooks are designed around your reality — not around some imaginary person who has nothing else to do.*
+
+---
+
+## Two Ways to Use Your Mac Mini
+
+Before you unbox anything, make one decision: how do you plan to use this machine?
+
+There are two distinct routes — and they require different preparation.
+
+---
+
+### Route 1: Always-On AI Server
+
+Your Mac Mini runs automations, processes data, hosts local AI models, and handles background tasks — all while you're doing other things. You connect to it remotely, check in on running jobs, and let it work overnight.
+
+This route uses **your existing personal Apple ID.** No special preparation needed beyond what's already in the Before You Begin checklist.
+
+---
+
+### Route 2: Claude Agents (Cowork, Dispatch, and similar)
+
+Claude acts on your computer on your behalf — opening apps, editing files, browsing the web, managing your inbox, processing documents. You describe the outcome, Claude executes the steps.
+
+This route requires a **separate Apple ID dedicated to the agent.** Here's why it matters: when an AI agent operates on your machine, you want it working under its own identity — not yours. Keeping them separate means your personal Apple ID, iCloud, and account data stay clean and unentangled from the agent's activity.
+
+> **Not sure which route you're taking?** Read both sections anyway. Even if you start with Route 1, you may want Route 2 later — and you'll be glad you set it up right from the beginning. The Claude agent capabilities are genuinely powerful for knowledge work, and many people in this community end up using both.
+
+---
+
+### Setting Up an Apple ID for Your Claude Agent
+
+Do this before first boot. You'll need two things:
+
+**1. A dedicated email address for the agent**
+
+Create a new Gmail account specifically for this purpose. Don't use your personal Gmail or a + alias — Apple sometimes rejects those.
+
+Good naming examples:
+- `firstname.aiagent@gmail.com`
+- `businessname.ai@gmail.com`
+- `firstname.claude@gmail.com`
+
+Keep it recognizable as an AI account, not a personal one. When the agent takes actions on your behalf, you'll see this identity attached — clarity matters.
+
+**2. A dedicated phone number for Apple ID verification**
+
+Apple requires a phone number to verify a new Apple ID — and won't let you reuse a number already attached to another Apple ID. **Do not use your personal cell number.**
+
+The simplest solution: **Google Voice.**
+
+Google Voice is free and gives you a real US phone number that receives texts and calls. It takes about five minutes to set up at voice.google.com. That number becomes the verification line for your agent's Apple ID — separate from your personal number, no carrier required.
+
+> **Why not just use your own number?** Apple limits how many Apple IDs can be associated with a single phone number. Using yours for the agent account may cause problems down the road — or fail outright if you've already used that number for another Apple ID.
+
+Once you have the Gmail address and Google Voice number, create the Apple ID at appleid.apple.com before continuing with this playbook.
+
+---
+
+### Safe Experimentation with Claude Agents
+
+Whether you're setting this up now or planning to later, these practices are worth knowing. Claude agents are capable — which means giving some thought to how you give them access is time well spent.
+
+**Start with Plan Mode.**
+Claude will show you exactly what it intends to do before it does anything. You review, approve, and then it executes. This is the right setting while you're getting familiar with what the agent can and can't do well. You can relax it once you've built trust with specific task types.
+
+**Grant folder access intentionally.**
+When Claude asks to access your Desktop, Documents, and Downloads, those are reasonable. Be more cautious about granting access to folders containing sensitive files — tax documents, financial records, client contracts, password manager exports. Create a dedicated working folder for AI tasks if you want a clean boundary.
+
+**Keep your password manager completely separate.**
+Never point Claude at a folder containing your password manager's vault files or exports. Your password manager is the one place AI access should never reach.
+
+**You can revoke permissions anytime.**
+If you ever want to pull back access, go to **System Settings → Privacy & Security → Accessibility** (and Screen Recording) and remove Claude from the list. You're always in control.
+
+**Start with low-stakes tasks.**
+The first few things you ask Claude to do should be things where a mistake doesn't matter — organizing a downloads folder, summarizing a document, creating a test file. Build familiarity before handing off anything consequential.
+
+> These practices apply to all AI agents — not just Claude. The tools are genuinely useful. Using them thoughtfully from the start is what separates people who trust their AI setup from people who had a bad early experience and gave up.
 
 ---
 
