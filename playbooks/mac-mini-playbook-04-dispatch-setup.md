@@ -178,6 +178,37 @@ Check your Mac Mini — the file should be there.
 
 ---
 
+## If Dispatch Can't Connect
+
+If you pick up your phone and Dispatch says it can't connect to your Mac Mini, work through these in order:
+
+**1. Check if your Mac Mini went to sleep.**
+A black screen doesn't always mean sleep — but if the Mac Mini itself slept, Dispatch loses the connection. Walk to your desk and move the mouse to wake it. If this is the culprit, the fix is in Energy settings (see below).
+
+**2. Check that the Claude desktop app is still running.**
+Dispatch needs the Claude app open in the background on your Mac Mini. If it was quit or crashed, open it again and go back to Cowork. Your pairing is still intact — you don't need to set up again.
+
+**3. Check your Energy settings — this is the most common culprit.**
+On a new Mac Mini, the default energy settings will put the machine to sleep and kill your Dispatch connection. Here's how to fix it permanently:
+
+- Click the **Apple logo in the top left corner of your screen**
+- Select **System Settings**
+- In the left sidebar, scroll up toward the top — look for **Energy** just below Wi-Fi, Bluetooth, and Network (it's easy to miss because most people expect it lower down)
+- Click **Energy** and set the following:
+
+| Setting | What to do |
+|---|---|
+| **Low Power Mode** | Turn **OFF** — this throttles your Mac Mini's performance |
+| **Prevent automatic sleeping when the display is off** | Turn **ON** |
+| **Wake for network access** | Turn **ON** |
+| **Start up automatically after a power failure** | Turn **ON** |
+
+> **Why these settings matter:** Low Power Mode and automatic sleep are the two most common reasons Dispatch disconnects. Turning them off keeps your Mac Mini fully awake and reachable. "Start up automatically after a power failure" is a bonus — if there's ever a power outage, your Mac Mini restarts on its own without you needing to be there.
+
+> **"Never letting your display turn off may shorten its lifespan"** — you'll see this warning next to the display setting in Lock Screen. It's technically true but not a real concern for most people. Your Mac Mini's display going dark while the machine stays awake is different from the machine sleeping. The display can sleep; the machine should not.
+
+---
+
 ## ✅ What You Just Did
 
 **Win 1 — Cowork is set up and has the permissions it needs.**

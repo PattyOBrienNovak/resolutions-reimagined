@@ -466,9 +466,36 @@ Three options — purely personal preference:
 
 ---
 
-## Step 5: You're In
+## Step 5: Configure Energy Settings
 
-When you reach the desktop, you're done.
+This step takes two minutes and prevents a frustrating problem later — your Mac Mini going to sleep and cutting off Dispatch, automations, and anything else running in the background.
+
+1. Click the **Apple logo in the top left corner of your screen**
+2. Select **System Settings** from the dropdown
+3. In the left sidebar, scroll toward the **top** — look for **Energy** just below Wi-Fi, Bluetooth, and Network
+
+> **It's easy to miss.** Most people scroll down looking for Energy settings. On the M4 Mac Mini, Energy sits near the top of the sidebar with the connectivity settings, not with the display settings where you'd expect it.
+
+Click **Energy** and set the following:
+
+| Setting | What to do |
+|---|---|
+| **Low Power Mode** | Turn **OFF** |
+| **Prevent automatic sleeping when the display is off** | Turn **ON** |
+| **Wake for network access** | Turn **ON** |
+| **Start up automatically after a power failure** | Turn **ON** |
+
+**Low Power Mode** ships turned on by default. Turn it off — it throttles your Mac Mini's performance and is designed for laptops running on battery, not a plugged-in desktop AI powerhouse.
+
+**Prevent automatic sleeping** keeps your Mac Mini awake and reachable even when the display goes dark. Without this, remote access tools like Dispatch lose their connection the moment the machine sleeps.
+
+**Start up automatically after a power failure** means if there's ever a power outage, your Mac Mini restarts on its own. Your agents and automations come back online without you needing to be there.
+
+---
+
+## Step 6: You're In
+
+When you reach the desktop and Energy is configured, you're done.
 
 Take a breath. Look at that clean desktop. That's your AI powerhouse — ready to be built.
 
